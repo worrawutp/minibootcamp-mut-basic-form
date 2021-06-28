@@ -2,10 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Basic Registration Form - minibootcamp</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">~
+  <link rel="stylesheet" href="./src/main.scss" />
 </head>
 <body>
-  hello 
+  <div class="form-card">
+    <div class="title">Registration Form</div>
+    <form action="/" method="" >
+      <div class="field">
+        <input type="text" placeholder="First Name" />
+      </div>
+      <div class="field">
+        <input type="text" placeholder="Last Name" />
+      </div>
+      <div class="field">
+        <input type="email" placeholder="Email" />
+      </div>
+      <div class="field">
+        <input type="password" placeholder="Password" />
+      </div>
+
+      <div class="checkboxes">
+        <div class="field">
+          <input type="checkbox" id="checkbox-1" name="checkbox-1" value="yes" />
+          <label for="checkbox-1">Dolor ipsam perspiciatis rem nemo magnam obcaecati. Voluptatem quasi nobis ducimus</label>
+        </div>
+        <div class="field">
+          <input type="checkbox" id="checkbox-2" name="checkbox-2" value="yes" />
+          <label for="checkbox-2">Amet eaque expedita totam quod aliquam molestias perspiciatis ex? Quisquam.</label>
+        </div>
+      </div> <!--.checkboxes -->
+
+      <div class="field field-submit">
+        <input type="submit" value="Register" class="btn-submit" />
+        <!-- <button>Register</button> -->
+      </div>
+    </form>
+  </div> <!--.form-card -->
 
   <script type="text/javascript" src="src/index.js"></script>
 </body>
